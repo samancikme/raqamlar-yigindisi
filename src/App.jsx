@@ -47,13 +47,13 @@ const App = () => {
           ref={first}
           required
           className='text-[16px] px-5 py-2 border-[1px] outline-none rounded-lg border-black'
-          placeholder='Boshlanish sonini kiriting'
+          placeholder="Baslang'ish sandi kiritin'"
           type="text" />
         <input
           ref={latest}
           required
           className='text-[16px] px-5 py-2 border-[1px] outline-none rounded-lg border-black'
-          placeholder='Oxirgi sonni kiriting'
+          placeholder="Oxirg'i sondi kiritin'"
           type="text" />
         <button
           className='flex justify-center items-center px-2 py-1 bg-indigo-300 hover:bg-indigo-500 active:scale-95 duration-500' 
