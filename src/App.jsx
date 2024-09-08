@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import Result from './result'
+import Result from './Result'
 
 const App = () => {
   const first = useRef()
