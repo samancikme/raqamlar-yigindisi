@@ -71,8 +71,8 @@ const App = () => {
           <div className="">Ótinish, tuwrı nomerlerdi kiritiń</div>
         </Result>}
 
-        <div className="">
-          
+        <div className="text-[14px] sm:text-[16px] mt-10 text-center text-black">
+          Coded by : <a className='text-blue-600' href="https://t.me/samancik_me">samancik</a>
         </div>
     </div>
   )
