@@ -9,11 +9,11 @@ const App = () => {
 
   console.log(result)
 
-  function raqamlarYigindisi(baslangish, axirgi) {
+  function sifrlarQosindisi(baslangish, axirgi) {
     let uluwma_jiyindi = 0
     for (let i = baslangish; i <= axirgi; i++) {
-      let sonStr = i.toString()
-      for (let sifr of sonStr) {
+      let sanStr = i.toString()
+      for (let sifr of sanStr) {
         uluwma_jiyindi += parseInt(sifr)
       }
     }
@@ -26,7 +26,7 @@ const App = () => {
     const latestValue = parseInt(latest.current.value)
 
     if (!isNaN(firstValue) && !isNaN(latestValue)) {
-      const result = raqamlarYigindisi(firstValue, latestValue)
+      const result = sifrlarQosindisi(firstValue, latestValue)
       setResult(result)
     } else {
       alert("Ótinish, tuwrı nomerlerdi kiritiń")
